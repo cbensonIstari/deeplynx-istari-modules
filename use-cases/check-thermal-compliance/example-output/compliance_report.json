@@ -1,0 +1,195 @@
+[
+  {
+    "requirement": "SYS-001: Maximum Takeoff Weight",
+    "requirement_id": "SYS-001",
+    "priority": "critical",
+    "threshold": "25 kg",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "SYS-002: Operational Range",
+    "requirement_id": "SYS-002",
+    "priority": "critical",
+    "threshold": "50 km",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "SYS-003: Maximum Speed",
+    "requirement_id": "SYS-003",
+    "priority": "high",
+    "threshold": "120 km/h",
+    "simulation": "CFD-002: Max Speed Run",
+    "simulation_status": "PASS",
+    "status": "PASS",
+    "details": {
+      "cd": 0.0298,
+      "cl": 0.31,
+      "solver": "OpenFOAM 11",
+      "status": "PASS",
+      "run_date": "2026-02-01",
+      "velocity": "120 km/h",
+      "power_required": "680 W"
+    }
+  },
+  {
+    "requirement": "SYS-004: Endurance",
+    "requirement_id": "SYS-004",
+    "priority": "critical",
+    "threshold": "90 min",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "SYS-005: Operating Temperature",
+    "requirement_id": "SYS-005",
+    "priority": "high",
+    "threshold": "",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "SYS-006: Payload Capacity",
+    "requirement_id": "SYS-006",
+    "priority": "high",
+    "threshold": "3 kg",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "SYS-007: Wind Resistance",
+    "requirement_id": "SYS-007",
+    "priority": "medium",
+    "threshold": "40 km/h",
+    "simulation": "CFD-003: 40 km/h Crosswind",
+    "simulation_status": "PASS",
+    "status": "PASS",
+    "details": {
+      "solver": "OpenFOAM 11",
+      "status": "PASS",
+      "run_date": "2026-02-10",
+      "sideslip": "18 deg",
+      "crosswind": "40 km/h",
+      "yaw_moment": "adequate",
+      "roll_tendency": "manageable"
+    }
+  },
+  {
+    "requirement": "SYS-008: Autonomous Navigation",
+    "requirement_id": "SYS-008",
+    "priority": "critical",
+    "threshold": "",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "PERF-001: Structural Load Factor",
+    "requirement_id": "PERF-001",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": "FEA-001: Wing Spar 4g Load",
+    "simulation_status": "PASS",
+    "status": "PASS",
+    "details": {
+      "solver": "NASTRAN SOL101",
+      "status": "PASS",
+      "run_date": "2026-01-15",
+      "max_stress": "890 MPa",
+      "mesh_elements": 285000,
+      "safety_factor": 2.1,
+      "max_deflection": "42 mm"
+    }
+  },
+  {
+    "requirement": "PERF-002: Propulsion Efficiency",
+    "requirement_id": "PERF-002",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "PERF-003: Battery Energy Density",
+    "requirement_id": "PERF-003",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "PERF-004: Drag Coefficient",
+    "requirement_id": "PERF-004",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": "CFD-001: Cruise Aerodynamics",
+    "simulation_status": "PASS",
+    "status": "PASS",
+    "details": {
+      "cd": 0.0261,
+      "cl": 0.62,
+      "aoa": 3.2,
+      "solver": "OpenFOAM 11",
+      "status": "PASS",
+      "altitude": "120 m AGL",
+      "l_over_d": 23.8,
+      "run_date": "2026-01-28",
+      "velocity": "90 km/h",
+      "mesh_cells": 12500000
+    }
+  },
+  {
+    "requirement": "PERF-005: Avionics Power Budget",
+    "requirement_id": "PERF-005",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "PERF-006: GPS Accuracy",
+    "requirement_id": "PERF-006",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": null,
+    "simulation_status": "no_simulation_linked",
+    "status": "UNCHECKED",
+    "details": {}
+  },
+  {
+    "requirement": "PERF-007: Thermal Envelope",
+    "requirement_id": "PERF-007",
+    "priority": "normal",
+    "threshold": "",
+    "simulation": "THERM-001: Electronics Bay Summer",
+    "simulation_status": "MARGINAL",
+    "status": "FAIL",
+    "details": {
+      "margin": "3 C",
+      "solver": "ANSYS Icepak",
+      "status": "MARGINAL",
+      "hotspot": "Flight controller CPU",
+      "run_date": "2026-02-14",
+      "ambient_temp": "50 C",
+      "max_junction_temp": "82 C"
+    }
+  }
+]

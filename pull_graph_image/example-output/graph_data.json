@@ -1,0 +1,162 @@
+{
+  "nodes": [
+    {
+      "id": 7,
+      "label": "SYS-004: Endurance",
+      "type": "root"
+    },
+    {
+      "id": 16,
+      "label": "PERF-005: Avionics Power Budget",
+      "type": "node"
+    },
+    {
+      "id": 14,
+      "label": "PERF-003: Battery Energy Density",
+      "type": "node"
+    },
+    {
+      "id": 13,
+      "label": "PERF-002: Propulsion Efficiency",
+      "type": "node"
+    },
+    {
+      "id": 22,
+      "label": "Power System",
+      "type": "node"
+    },
+    {
+      "id": 20,
+      "label": "Propulsion",
+      "type": "node"
+    },
+    {
+      "id": 5,
+      "label": "SYS-002: Operational Range",
+      "type": "node"
+    },
+    {
+      "id": 65,
+      "label": "Main Battery Pack 48V/29Ah",
+      "type": "node"
+    },
+    {
+      "id": 31,
+      "label": "Tattu 48V 29Ah Battery Pack",
+      "type": "node"
+    },
+    {
+      "id": 6,
+      "label": "SYS-003: Maximum Speed",
+      "type": "node"
+    },
+    {
+      "id": 28,
+      "label": "Folding Prop 18x6.1",
+      "type": "node"
+    },
+    {
+      "id": 27,
+      "label": "T-Motor U8 II KV150",
+      "type": "node"
+    },
+    {
+      "id": 63,
+      "label": "TP-002: Endurance Test",
+      "type": "node"
+    }
+  ],
+  "links": [
+    {
+      "source": 7,
+      "target": 16,
+      "relationshipId": 10,
+      "relationshipName": "decomposes_to",
+      "edgeId": 8
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "relationshipId": 10,
+      "relationshipName": "decomposes_to",
+      "edgeId": 7
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "relationshipId": 10,
+      "relationshipName": "decomposes_to",
+      "edgeId": 6
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "relationshipId": 4,
+      "relationshipName": "satisfies",
+      "edgeId": 28
+    },
+    {
+      "source": 20,
+      "target": 7,
+      "relationshipId": 4,
+      "relationshipName": "satisfies",
+      "edgeId": 27
+    },
+    {
+      "source": 22,
+      "target": 5,
+      "relationshipId": 4,
+      "relationshipName": "satisfies",
+      "edgeId": 32
+    },
+    {
+      "source": 22,
+      "target": 65,
+      "relationshipId": 6,
+      "relationshipName": "contains",
+      "edgeId": 20
+    },
+    {
+      "source": 22,
+      "target": 31,
+      "relationshipId": 6,
+      "relationshipName": "contains",
+      "edgeId": 19
+    },
+    {
+      "source": 20,
+      "target": 6,
+      "relationshipId": 4,
+      "relationshipName": "satisfies",
+      "edgeId": 26
+    },
+    {
+      "source": 20,
+      "target": 28,
+      "relationshipId": 6,
+      "relationshipName": "contains",
+      "edgeId": 15
+    },
+    {
+      "source": 20,
+      "target": 27,
+      "relationshipId": 6,
+      "relationshipName": "contains",
+      "edgeId": 14
+    },
+    {
+      "source": 20,
+      "target": 63,
+      "relationshipId": 12,
+      "relationshipName": "tested_by",
+      "edgeId": 75
+    },
+    {
+      "source": 20,
+      "target": 65,
+      "relationshipId": 14,
+      "relationshipName": "powered_by",
+      "edgeId": 70
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "record_count": 62,
+  "edge_count": 83,
+  "class_count": 19,
+  "requirement_count": 15,
+  "artifacts": [
+    "graph_records.json",
+    "graph_edges.json",
+    "requirements.json",
+    "graph_summary.md"
+  ]
+}

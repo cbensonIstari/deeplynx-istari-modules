@@ -1,0 +1,73 @@
+{
+  "module_id": "@deeplynx:push_results",
+  "version": "0.1.0",
+  "description": "Push analysis results back to DeepLynx as new records with edges and tags",
+  "functions": [
+    {
+      "id": "push_results",
+      "description": "Create records and edges in DeepLynx from analysis outputs",
+      "entrypoint": "python push_results.py",
+      "tool_name": "deeplynx",
+      "tool_version": "2.0.0",
+      "operating_system": "Ubuntu 22.04",
+      "input_schema": {
+        "type": "object",
+        "required": ["deeplynx_url", "organization_id", "project_id", "data_source_id", "records"],
+        "properties": {
+          "deeplynx_url": { "type": "string" },
+          "organization_id": { "type": "integer" },
+          "project_id": { "type": "integer" },
+          "data_source_id": {
+            "type": "integer",
+            "description": "Data source to associate new records with"
+          },
+          "records": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "description", "original_id", "properties"],
+              "properties": {
+                "name": { "type": "string" },
+                "description": { "type": "string" },
+                "original_id": { "type": "string" },
+                "properties": { "type": "object" },
+                "class_name": { "type": "string" },
+                "tags": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "Tag names to attach on creation"
+                },
+                "link_to": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["record_id", "relationship_name"],
+                    "properties": {
+                      "record_id": { "type": "integer" },
+                      "relationship_name": { "type": "string" },
+                      "direction": {
+                        "type": "string",
+                        "enum": ["outgoing", "incoming"],
+                        "default": "outgoing"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "bearer_token": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "records_created": { "type": "integer" },
+          "edges_created": { "type": "integer" },
+          "errors": { "type": "integer" },
+          "artifacts": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  ]
+}

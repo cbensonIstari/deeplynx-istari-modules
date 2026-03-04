@@ -1,0 +1,30 @@
+{
+  "deeplynx_url": "http://localhost:5000",
+  "organization_id": 1,
+  "project_id": 2,
+  "data_source_id": 2,
+  "records": [
+    {
+      "name": "Thermal Re-analysis: Motor Assembly",
+      "description": "Thermal FEA of motor assembly under updated 520W power draw — checks against 85°C requirement",
+      "original_id": "THERMAL-REANALYSIS-001",
+      "class_name": "Thermal Analysis",
+      "properties": {
+        "solver": "Istari Thermal Sim",
+        "peak_temperature_c": 91.3,
+        "ambient_temperature_c": 35.0,
+        "power_input_w": 520,
+        "status": "FAIL",
+        "failure_reason": "Peak temp 91.3°C exceeds 85°C limit"
+      },
+      "tags": ["needs-review"],
+      "link_to": [
+        {
+          "record_id": 25,
+          "relationship_name": "analyzes",
+          "direction": "outgoing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "deeplynx_url": "http://localhost:5000",
+  "organization_id": 1,
+  "project_id": 2,
+  "root_record_id": 7,
+  "depth": 2,
+  "format": "both",
+  "width": 1600,
+  "height": 1200,
+  "layout": "spring",
+  "show_edge_labels": true,
+  "dpi": 150
+}

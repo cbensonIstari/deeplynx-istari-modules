@@ -1,0 +1,52 @@
+{
+  "module_id": "@deeplynx:pull_graph",
+  "version": "0.1.0",
+  "description": "Pull records, edges, and ontology from a DeepLynx project into structured JSON artifacts",
+  "functions": [
+    {
+      "id": "pull_graph",
+      "description": "Query DeepLynx API and export all records, edges, and requirements as JSON + Markdown summary",
+      "entrypoint": "python pull_graph.py",
+      "tool_name": "deeplynx",
+      "tool_version": "2.0.0",
+      "operating_system": "Ubuntu 22.04",
+      "input_schema": {
+        "type": "object",
+        "required": ["deeplynx_url", "organization_id", "project_id"],
+        "properties": {
+          "deeplynx_url": {
+            "type": "string",
+            "description": "Base URL of DeepLynx API (e.g. http://deeplynx-server:5000)"
+          },
+          "organization_id": {
+            "type": "integer",
+            "description": "DeepLynx organization ID"
+          },
+          "project_id": {
+            "type": "integer",
+            "description": "DeepLynx project ID"
+          },
+          "record_types": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Optional class names to filter records (e.g. ['System Requirement', 'Component']). Omit to pull all."
+          },
+          "bearer_token": {
+            "type": "string",
+            "description": "Optional auth token (omit if auth is disabled)"
+          }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "record_count": { "type": "integer" },
+          "edge_count": { "type": "integer" },
+          "class_count": { "type": "integer" },
+          "requirement_count": { "type": "integer" },
+          "artifacts": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  ]
+}

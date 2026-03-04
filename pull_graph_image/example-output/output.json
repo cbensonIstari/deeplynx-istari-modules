@@ -1,0 +1,10 @@
+{
+  "node_count": 13,
+  "edge_count": 13,
+  "root_label": "SYS-004: Endurance",
+  "artifacts": [
+    "graph_SYS-004__Endurance.png",
+    "graph_SYS-004__Endurance.svg",
+    "graph_data.json"
+  ]
+}

@@ -1,0 +1,1764 @@
+[
+  {
+    "id": 4,
+    "name": "SYS-001: Maximum Takeoff Weight",
+    "description": "The drone shall have a maximum takeoff weight not exceeding 25 kg",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "critical",
+      "threshold": "25 kg",
+      "source_document": "SRD v2.1",
+      "verification_method": "test"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-001",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 1,
+        "name": "critical-path"
+      }
+    ],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 5,
+    "name": "SYS-002: Operational Range",
+    "description": "The drone shall achieve a minimum operational range of 50 km",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "critical",
+      "threshold": "50 km",
+      "source_document": "SRD v2.1",
+      "verification_method": "demonstration"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-002",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 6,
+    "name": "SYS-003: Maximum Speed",
+    "description": "The drone shall achieve a maximum airspeed of 120 km/h in level flight",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "high",
+      "threshold": "120 km/h",
+      "source_document": "SRD v2.1",
+      "verification_method": "test"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-003",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 7,
+    "name": "SYS-004: Endurance",
+    "description": "The drone shall sustain flight for a minimum of 90 minutes at cruise speed",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "critical",
+      "threshold": "90 min",
+      "source_document": "SRD v2.1",
+      "verification_method": "test"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-004",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 1,
+        "name": "critical-path"
+      }
+    ],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 8,
+    "name": "SYS-005: Operating Temperature",
+    "description": "The drone shall operate in ambient temperatures from -20C to +50C",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "high",
+      "range_max": "50 C",
+      "range_min": "-20 C",
+      "source_document": "SRD v2.1",
+      "verification_method": "analysis"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-005",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 9,
+    "name": "SYS-006: Payload Capacity",
+    "description": "The drone shall carry a minimum payload of 3 kg",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "high",
+      "threshold": "3 kg",
+      "source_document": "SRD v2.1",
+      "verification_method": "test"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-006",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 10,
+    "name": "SYS-007: Wind Resistance",
+    "description": "The drone shall maintain stable flight in winds up to 40 km/h",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "medium",
+      "threshold": "40 km/h",
+      "source_document": "SRD v2.1",
+      "verification_method": "test"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-007",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 11,
+    "name": "SYS-008: Autonomous Navigation",
+    "description": "The drone shall execute pre-programmed waypoint missions autonomously",
+    "uri": null,
+    "properties": {
+      "status": "active",
+      "priority": "critical",
+      "source_document": "SRD v2.1",
+      "verification_method": "demonstration"
+    },
+    "objectStorageId": null,
+    "originalId": "SYS-008",
+    "classId": 10,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:16.996011",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 1,
+        "name": "critical-path"
+      }
+    ],
+    "labels": [],
+    "class_name": "System Requirement"
+  },
+  {
+    "id": 12,
+    "name": "PERF-001: Structural Load Factor",
+    "description": "Airframe shall withstand 4g load factor with 1.5x safety margin",
+    "uri": null,
+    "properties": {
+      "parent_req": "SYS-001",
+      "load_factor": "4g",
+      "safety_margin": 1.5
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-001",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 13,
+    "name": "PERF-002: Propulsion Efficiency",
+    "description": "Propulsion system shall achieve minimum 8 g/W thrust efficiency",
+    "uri": null,
+    "properties": {
+      "efficiency": "8 g/W",
+      "parent_req": "SYS-004"
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-002",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 14,
+    "name": "PERF-003: Battery Energy Density",
+    "description": "Battery pack shall provide minimum 200 Wh/kg energy density",
+    "uri": null,
+    "properties": {
+      "parent_req": "SYS-004",
+      "energy_density": "200 Wh/kg"
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-003",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 15,
+    "name": "PERF-004: Drag Coefficient",
+    "description": "Airframe Cd shall not exceed 0.028 at cruise",
+    "uri": null,
+    "properties": {
+      "max_cd": 0.028,
+      "parent_req": "SYS-003",
+      "flight_condition": "cruise"
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-004",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 16,
+    "name": "PERF-005: Avionics Power Budget",
+    "description": "Total avionics power consumption shall not exceed 45W",
+    "uri": null,
+    "properties": {
+      "max_power": "45 W",
+      "parent_req": "SYS-004"
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-005",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 17,
+    "name": "PERF-006: GPS Accuracy",
+    "description": "Navigation solution shall achieve 2m CEP accuracy",
+    "uri": null,
+    "properties": {
+      "accuracy": "2m CEP",
+      "parent_req": "SYS-008"
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-006",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 18,
+    "name": "PERF-007: Thermal Envelope",
+    "description": "Electronics shall maintain junction temp below 85C across operating range",
+    "uri": null,
+    "properties": {
+      "parent_req": "SYS-005",
+      "max_junction_temp": "85 C"
+    },
+    "objectStorageId": null,
+    "originalId": "PERF-007",
+    "classId": 11,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:29.57165",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Performance Requirement"
+  },
+  {
+    "id": 19,
+    "name": "Airframe",
+    "description": "Primary aircraft structure including fuselage, wings, and tail",
+    "uri": null,
+    "properties": {
+      "config": "fixed-wing pusher",
+      "wingspan": "3.2 m",
+      "weight_budget": "8.5 kg"
+    },
+    "objectStorageId": null,
+    "originalId": "SUB-AIRFRAME",
+    "classId": 12,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:47.187921",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Subsystem"
+  },
+  {
+    "id": 20,
+    "name": "Propulsion",
+    "description": "Motor, propeller, and ESC assembly",
+    "uri": null,
+    "properties": {
+      "type": "electric pusher",
+      "max_thrust": "120 N",
+      "weight_budget": "2.8 kg"
+    },
+    "objectStorageId": null,
+    "originalId": "SUB-PROPULSION",
+    "classId": 12,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:47.187921",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Subsystem"
+  },
+  {
+    "id": 21,
+    "name": "Avionics",
+    "description": "Flight controller, GPS, IMU, telemetry, and computing",
+    "uri": null,
+    "properties": {
+      "redundancy": "dual-redundant",
+      "power_budget": "45 W",
+      "weight_budget": "1.5 kg"
+    },
+    "objectStorageId": null,
+    "originalId": "SUB-AVIONICS",
+    "classId": 12,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:47.187921",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Subsystem"
+  },
+  {
+    "id": 22,
+    "name": "Power System",
+    "description": "Battery packs, power distribution, and charging",
+    "uri": null,
+    "properties": {
+      "voltage": "48V nominal",
+      "capacity": "1400 Wh",
+      "weight_budget": "7.0 kg"
+    },
+    "objectStorageId": null,
+    "originalId": "SUB-POWER",
+    "classId": 12,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:47.187921",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Subsystem"
+  },
+  {
+    "id": 23,
+    "name": "Payload Bay",
+    "description": "Modular payload mounting, gimbal, and data interface",
+    "uri": null,
+    "properties": {
+      "volume": "15x15x20 cm",
+      "interface": "USB3 + Ethernet",
+      "weight_budget": "3.0 kg"
+    },
+    "objectStorageId": null,
+    "originalId": "SUB-PAYLOAD",
+    "classId": 12,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:47.187921",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Subsystem"
+  },
+  {
+    "id": 24,
+    "name": "Recovery System",
+    "description": "Parachute deployment system for emergency recovery",
+    "uri": null,
+    "properties": {
+      "type": "ballistic parachute",
+      "weight_budget": "0.8 kg",
+      "deploy_altitude_min": "30 m"
+    },
+    "objectStorageId": null,
+    "originalId": "SUB-RECOVERY",
+    "classId": 12,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:13:47.187921",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Subsystem"
+  },
+  {
+    "id": 25,
+    "name": "Wing Spar (Carbon Fiber)",
+    "description": "Main structural wing spar, CNC-machined carbon fiber layup",
+    "uri": null,
+    "properties": {
+      "length": "1.55 m",
+      "weight": "0.95 kg",
+      "revision": "C",
+      "part_number": "MK4-WS-001"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-WING-SPAR",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "custom-design"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 26,
+    "name": "Fuselage Shell",
+    "description": "Fuselage monocoque shell, 3D-printed CF-Nylon",
+    "uri": null,
+    "properties": {
+      "weight": "1.8 kg",
+      "revision": "D",
+      "part_number": "MK4-FS-001",
+      "manufacturing": "FDM - Markforged"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-FUSELAGE",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "custom-design"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 27,
+    "name": "T-Motor U8 II KV150",
+    "description": "Brushless outrunner motor for pusher prop configuration",
+    "uri": null,
+    "properties": {
+      "kv": 150,
+      "source": "COTS",
+      "weight": "0.272 kg",
+      "max_power": "1200 W",
+      "part_number": "COTS-TM-U8II"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-MOTOR",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 28,
+    "name": "Folding Prop 18x6.1",
+    "description": "Carbon fiber folding propeller",
+    "uri": null,
+    "properties": {
+      "pitch": "6.1 in",
+      "weight": "0.085 kg",
+      "diameter": "18 in",
+      "part_number": "COTS-FP-1861"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-PROP",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 29,
+    "name": "Cube Orange+ Flight Controller",
+    "description": "Triple-redundant IMU flight controller running ArduPilot",
+    "uri": null,
+    "properties": {
+      "weight": "0.076 kg",
+      "firmware": "ArduPilot 4.5.1",
+      "processor": "STM32H757",
+      "part_number": "COTS-CO-PLUS"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-FC",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 30,
+    "name": "HERE4 GPS Module",
+    "description": "Multi-band RTK GNSS receiver",
+    "uri": null,
+    "properties": {
+      "bands": "L1/L2/L5",
+      "weight": "0.054 kg",
+      "part_number": "COTS-HERE4",
+      "accuracy_rtk": "0.01 m",
+      "accuracy_standalone": "1.5 m"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-GPS",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 31,
+    "name": "Tattu 48V 29Ah Battery Pack",
+    "description": "High-density LiPo battery pack (12S configuration)",
+    "uri": null,
+    "properties": {
+      "c_rate": "10C",
+      "weight": "6.2 kg",
+      "capacity": "1392 Wh",
+      "part_number": "COTS-BATT-48V29",
+      "energy_density": "224 Wh/kg"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-BATT",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 1,
+        "name": "critical-path"
+      },
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 32,
+    "name": "Herelink V2 Telemetry",
+    "description": "HD video + telemetry data link with ground station",
+    "uri": null,
+    "properties": {
+      "range": "20 km",
+      "video": "1080p",
+      "weight": "0.185 kg",
+      "frequency": "2.4 GHz",
+      "part_number": "COTS-HL-V2"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-TELEM",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 33,
+    "name": "Sony ILX-LR1 Camera",
+    "description": "61MP full-frame reconnaissance camera",
+    "uri": null,
+    "properties": {
+      "weight": "0.515 kg",
+      "resolution": "61 MP",
+      "part_number": "COTS-SONY-LR1",
+      "sensor_size": "35.7x23.8 mm"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-CAMERA",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 34,
+    "name": "FLIR Boson 640 Thermal",
+    "description": "Longwave infrared thermal camera for night operations",
+    "uri": null,
+    "properties": {
+      "NETD": "<40 mK",
+      "weight": "0.029 kg",
+      "resolution": "640x512",
+      "part_number": "COTS-FLIR-B640",
+      "spectral_range": "7.5-13.5 um"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-THERMAL-CAM",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 35,
+    "name": "V-Tail Assembly",
+    "description": "V-tail control surfaces with integrated servos",
+    "uri": null,
+    "properties": {
+      "weight": "0.42 kg",
+      "revision": "B",
+      "part_number": "MK4-VT-001",
+      "servo_torque": "12 kg-cm"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-VTAIL",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "custom-design"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 36,
+    "name": "Parachute Module BRS-5",
+    "description": "Ballistic recovery system with 5m2 canopy",
+    "uri": null,
+    "properties": {
+      "weight": "0.72 kg",
+      "canopy_area": "5 m2",
+      "deploy_time": "0.8 s",
+      "part_number": "COTS-BRS5",
+      "max_descent_rate": "5.5 m/s"
+    },
+    "objectStorageId": null,
+    "originalId": "COMP-CHUTE",
+    "classId": 13,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:13.124299",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 4,
+        "name": "COTS"
+      }
+    ],
+    "labels": [],
+    "class_name": "Component"
+  },
+  {
+    "id": 37,
+    "name": "Toray T700 Carbon Fiber",
+    "description": "Aerospace-grade carbon fiber prepreg",
+    "uri": null,
+    "properties": {
+      "density": "1.80 g/cm3",
+      "modulus": "230 GPa",
+      "fiber_type": "PAN-based",
+      "tensile_strength": "4900 MPa"
+    },
+    "objectStorageId": null,
+    "originalId": "MAT-CF-T700",
+    "classId": 14,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Material"
+  },
+  {
+    "id": 38,
+    "name": "Onyx CF-Nylon",
+    "description": "Markforged chopped carbon fiber reinforced nylon",
+    "uri": null,
+    "properties": {
+      "density": "1.18 g/cm3",
+      "modulus": "2.4 GPa",
+      "print_method": "FDM",
+      "tensile_strength": "37 MPa"
+    },
+    "objectStorageId": null,
+    "originalId": "MAT-CF-NYLON",
+    "classId": 14,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Material"
+  },
+  {
+    "id": 39,
+    "name": "6061-T6 Aluminum",
+    "description": "Structural aluminum for brackets and mounts",
+    "uri": null,
+    "properties": {
+      "density": "2.70 g/cm3",
+      "modulus": "68.9 GPa",
+      "tensile_strength": "310 MPa"
+    },
+    "objectStorageId": null,
+    "originalId": "MAT-AL-6061",
+    "classId": 14,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Material"
+  },
+  {
+    "id": 40,
+    "name": "Wing Assembly CAD v3.2",
+    "description": "Complete wing geometry including spar, ribs, skin, and control surfaces",
+    "uri": null,
+    "properties": {
+      "tool": "nTopology 4.2",
+      "format": "STEP AP214",
+      "revision": "3.2",
+      "file_size": "48 MB",
+      "feature_count": 342
+    },
+    "objectStorageId": null,
+    "originalId": "CAD-WING-V32",
+    "classId": 15,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "custom-design"
+      }
+    ],
+    "labels": [],
+    "class_name": "CAD Model"
+  },
+  {
+    "id": 41,
+    "name": "Full Aircraft CAD v2.8",
+    "description": "Complete aircraft assembly model",
+    "uri": null,
+    "properties": {
+      "tool": "CATIA V5 R32",
+      "format": "CATProduct",
+      "revision": "2.8",
+      "file_size": "1.2 GB",
+      "parts_count": 847
+    },
+    "objectStorageId": null,
+    "originalId": "CAD-FULL-V28",
+    "classId": 15,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "custom-design"
+      }
+    ],
+    "labels": [],
+    "class_name": "CAD Model"
+  },
+  {
+    "id": 42,
+    "name": "Fuselage CAD v4.1",
+    "description": "Fuselage shell and internal structure",
+    "uri": null,
+    "properties": {
+      "tool": "nTopology 4.2",
+      "format": "STEP AP214",
+      "revision": "4.1",
+      "file_size": "92 MB",
+      "lattice_optimized": true
+    },
+    "objectStorageId": null,
+    "originalId": "CAD-FUSE-V41",
+    "classId": 15,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 5,
+        "name": "custom-design"
+      }
+    ],
+    "labels": [],
+    "class_name": "CAD Model"
+  },
+  {
+    "id": 43,
+    "name": "ArduPilot Flight Stack v4.5.1",
+    "description": "Main flight control firmware",
+    "uri": null,
+    "properties": {
+      "loc": 520000,
+      "license": "GPLv3",
+      "version": "4.5.1",
+      "language": "C++",
+      "safety_rating": "DAL-D"
+    },
+    "objectStorageId": null,
+    "originalId": "SW-ARDUPILOT",
+    "classId": 23,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 1,
+        "name": "critical-path"
+      }
+    ],
+    "labels": [],
+    "class_name": "Software Module"
+  },
+  {
+    "id": 44,
+    "name": "Mission Planner Module",
+    "description": "Waypoint navigation and mission execution",
+    "uri": null,
+    "properties": {
+      "version": "2.1.0",
+      "language": "Lua",
+      "interfaces": [
+        "MAVLink 2.0",
+        "USB",
+        "UART"
+      ]
+    },
+    "objectStorageId": null,
+    "originalId": "SW-MISSION",
+    "classId": 23,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Software Module"
+  },
+  {
+    "id": 45,
+    "name": "Failsafe Manager",
+    "description": "Battery, GPS, RC failsafe logic and recovery triggers",
+    "uri": null,
+    "properties": {
+      "version": "1.3.0",
+      "triggers": [
+        "low_battery",
+        "gps_lost",
+        "rc_lost",
+        "geofence_breach"
+      ],
+      "response_time_ms": 50
+    },
+    "objectStorageId": null,
+    "originalId": "SW-FAILSAFE",
+    "classId": 23,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:14:32.60811",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Software Module"
+  },
+  {
+    "id": 46,
+    "name": "FEA-001: Wing Spar 4g Load",
+    "description": "Static structural analysis of wing spar under 4g maneuver load",
+    "uri": null,
+    "properties": {
+      "solver": "NASTRAN SOL101",
+      "status": "PASS",
+      "run_date": "2026-01-15",
+      "max_stress": "890 MPa",
+      "mesh_elements": 285000,
+      "safety_factor": 2.1,
+      "max_deflection": "42 mm"
+    },
+    "objectStorageId": null,
+    "originalId": "FEA-001",
+    "classId": 16,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "FEA Result"
+  },
+  {
+    "id": 47,
+    "name": "FEA-002: Fuselage Pressurization",
+    "description": "Fuselage shell stress under internal payload loads and landing impact",
+    "uri": null,
+    "properties": {
+      "solver": "NASTRAN SOL106",
+      "status": "MARGINAL",
+      "concern": "Landing gear mount stress concentration",
+      "run_date": "2026-01-22",
+      "max_stress": "28 MPa",
+      "safety_factor": 1.3
+    },
+    "objectStorageId": null,
+    "originalId": "FEA-002",
+    "classId": 16,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 2,
+        "name": "needs-review"
+      },
+      {
+        "id": 6,
+        "name": "marginal"
+      }
+    ],
+    "labels": [],
+    "class_name": "FEA Result"
+  },
+  {
+    "id": 48,
+    "name": "FEA-003: V-Tail Flutter",
+    "description": "Aeroelastic flutter analysis of V-tail at Vne",
+    "uri": null,
+    "properties": {
+      "vne": "150 km/h",
+      "solver": "NASTRAN SOL145",
+      "status": "PASS",
+      "run_date": "2026-02-03",
+      "flutter_speed": "185 km/h",
+      "flutter_margin": "23%"
+    },
+    "objectStorageId": null,
+    "originalId": "FEA-003",
+    "classId": 16,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "FEA Result"
+  },
+  {
+    "id": 49,
+    "name": "CFD-001: Cruise Aerodynamics",
+    "description": "Full aircraft aerodynamic analysis at cruise condition",
+    "uri": null,
+    "properties": {
+      "cd": 0.0261,
+      "cl": 0.62,
+      "aoa": 3.2,
+      "solver": "OpenFOAM 11",
+      "status": "PASS",
+      "altitude": "120 m AGL",
+      "l_over_d": 23.8,
+      "run_date": "2026-01-28",
+      "velocity": "90 km/h",
+      "mesh_cells": 12500000
+    },
+    "objectStorageId": null,
+    "originalId": "CFD-001",
+    "classId": 17,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "CFD Result"
+  },
+  {
+    "id": 50,
+    "name": "CFD-002: Max Speed Run",
+    "description": "Aerodynamic analysis at maximum speed condition",
+    "uri": null,
+    "properties": {
+      "cd": 0.0298,
+      "cl": 0.31,
+      "solver": "OpenFOAM 11",
+      "status": "PASS",
+      "run_date": "2026-02-01",
+      "velocity": "120 km/h",
+      "power_required": "680 W"
+    },
+    "objectStorageId": null,
+    "originalId": "CFD-002",
+    "classId": 17,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "CFD Result"
+  },
+  {
+    "id": 51,
+    "name": "CFD-003: 40 km/h Crosswind",
+    "description": "Stability analysis in maximum crosswind condition",
+    "uri": null,
+    "properties": {
+      "solver": "OpenFOAM 11",
+      "status": "PASS",
+      "run_date": "2026-02-10",
+      "sideslip": "18 deg",
+      "crosswind": "40 km/h",
+      "yaw_moment": "adequate",
+      "roll_tendency": "manageable"
+    },
+    "objectStorageId": null,
+    "originalId": "CFD-003",
+    "classId": 17,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "CFD Result"
+  },
+  {
+    "id": 52,
+    "name": "THERM-001: Electronics Bay Summer",
+    "description": "Thermal analysis of avionics bay at 50C ambient",
+    "uri": null,
+    "properties": {
+      "margin": "3 C",
+      "solver": "ANSYS Icepak",
+      "status": "MARGINAL",
+      "hotspot": "Flight controller CPU",
+      "run_date": "2026-02-14",
+      "ambient_temp": "50 C",
+      "max_junction_temp": "82 C"
+    },
+    "objectStorageId": null,
+    "originalId": "THERM-001",
+    "classId": 18,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 2,
+        "name": "needs-review"
+      },
+      {
+        "id": 6,
+        "name": "marginal"
+      }
+    ],
+    "labels": [],
+    "class_name": "Thermal Analysis"
+  },
+  {
+    "id": 53,
+    "name": "THERM-002: Battery Thermal Runaway",
+    "description": "Thermal propagation analysis if single cell enters thermal runaway",
+    "uri": null,
+    "properties": {
+      "solver": "ANSYS Fluent",
+      "status": "PASS with conditions",
+      "run_date": "2026-02-18",
+      "scenario": "single cell failure at 45C ambient",
+      "propagation": "contained to adjacent 2 cells",
+      "time_to_containment": "45 s"
+    },
+    "objectStorageId": null,
+    "originalId": "THERM-002",
+    "classId": 18,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Thermal Analysis"
+  },
+  {
+    "id": 54,
+    "name": "FT-001: First Flight",
+    "description": "Initial airworthiness flight test - manual piloting only",
+    "uri": null,
+    "properties": {
+      "date": "2026-02-20",
+      "notes": "Minor yaw oscillation at low speed, tuning needed",
+      "pilot": "J. Thompson",
+      "result": "PASS",
+      "location": "INL Test Range B",
+      "max_speed": "65 km/h",
+      "duration_min": 12,
+      "max_altitude": "80 m AGL"
+    },
+    "objectStorageId": null,
+    "originalId": "FT-001",
+    "classId": 19,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 3,
+        "name": "flight-tested"
+      }
+    ],
+    "labels": [],
+    "class_name": "Flight Test"
+  },
+  {
+    "id": 55,
+    "name": "FT-002: Envelope Expansion",
+    "description": "Speed and altitude envelope expansion test series",
+    "uri": null,
+    "properties": {
+      "date": "2026-02-25",
+      "issues": [
+        "Slight pitch-up tendency above 110 km/h"
+      ],
+      "result": "PASS",
+      "location": "INL Test Range B",
+      "max_speed": "118 km/h",
+      "stall_speed": "42 km/h",
+      "duration_min": 38,
+      "max_altitude": "150 m AGL"
+    },
+    "objectStorageId": null,
+    "originalId": "FT-002",
+    "classId": 19,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 3,
+        "name": "flight-tested"
+      }
+    ],
+    "labels": [],
+    "class_name": "Flight Test"
+  },
+  {
+    "id": 56,
+    "name": "FT-003: Autonomous Waypoint Mission",
+    "description": "Fully autonomous 25 km waypoint mission with return-to-launch",
+    "uri": null,
+    "properties": {
+      "date": "2026-03-01",
+      "result": "PASS",
+      "location": "INL Test Range A",
+      "distance_km": 25.3,
+      "duration_min": 52,
+      "waypoints_hit": 12,
+      "waypoints_total": 12,
+      "battery_remaining": "38%",
+      "max_cross_track_error": "1.8 m"
+    },
+    "objectStorageId": null,
+    "originalId": "FT-003",
+    "classId": 19,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 3,
+        "name": "flight-tested"
+      }
+    ],
+    "labels": [],
+    "class_name": "Flight Test"
+  },
+  {
+    "id": 57,
+    "name": "TS-001: Propulsion Motor Selection",
+    "description": "Trade study comparing 4 candidate propulsion motors",
+    "uri": null,
+    "properties": {
+      "winner": "T-Motor U8 II",
+      "criteria": [
+        "efficiency",
+        "weight",
+        "reliability",
+        "cost",
+        "availability"
+      ],
+      "candidates": [
+        "T-Motor U8 II",
+        "KDE 7215XF",
+        "Scorpion SII-4035",
+        "MAD M8C12"
+      ],
+      "decision_date": "2025-11-15",
+      "deciding_factor": "Best efficiency at cruise thrust point"
+    },
+    "objectStorageId": null,
+    "originalId": "TS-001",
+    "classId": 20,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Trade Study"
+  },
+  {
+    "id": 58,
+    "name": "TS-002: Battery Chemistry",
+    "description": "Trade study: LiPo vs LiFePO4 vs Li-Ion for main battery",
+    "uri": null,
+    "properties": {
+      "winner": "LiPo 6S (scaled to 12S)",
+      "candidates": [
+        "LiPo 6S",
+        "LiFePO4 16S",
+        "Li-Ion 21700 12S"
+      ],
+      "risk_accepted": "Thermal runaway risk mitigated by BMS and containment",
+      "deciding_factor": "Energy density critical for endurance requirement"
+    },
+    "objectStorageId": null,
+    "originalId": "TS-002",
+    "classId": 20,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Trade Study"
+  },
+  {
+    "id": 59,
+    "name": "RISK-001: Battery Thermal Runaway",
+    "description": "LiPo battery thermal runaway during hot-day operations",
+    "uri": null,
+    "properties": {
+      "owner": "Power Systems Lead",
+      "status": "mitigated",
+      "likelihood": "low",
+      "mitigation": "BMS monitoring, thermal containment, auto-land trigger",
+      "risk_level": "high",
+      "consequence": "catastrophic"
+    },
+    "objectStorageId": null,
+    "originalId": "RISK-001",
+    "classId": 21,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Risk Item"
+  },
+  {
+    "id": 60,
+    "name": "RISK-002: GPS Denied Navigation",
+    "description": "Loss of GPS signal in operational environment",
+    "uri": null,
+    "properties": {
+      "owner": "Avionics Lead",
+      "status": "partially mitigated",
+      "likelihood": "medium",
+      "mitigation": "Dual GPS, visual odometry fallback, return-to-launch on GPS loss",
+      "risk_level": "high",
+      "consequence": "major"
+    },
+    "objectStorageId": null,
+    "originalId": "RISK-002",
+    "classId": 21,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Risk Item"
+  },
+  {
+    "id": 61,
+    "name": "RISK-003: Fuselage Mount Fatigue",
+    "description": "FEA-002 showed marginal safety factor at landing gear mount",
+    "uri": null,
+    "properties": {
+      "owner": "Structures Lead",
+      "status": "open",
+      "likelihood": "medium",
+      "mitigation": "Redesign mount with gussets, pending FEA rerun",
+      "risk_level": "medium",
+      "consequence": "major"
+    },
+    "objectStorageId": null,
+    "originalId": "RISK-003",
+    "classId": 21,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Risk Item"
+  },
+  {
+    "id": 62,
+    "name": "TP-001: Structural Load Test",
+    "description": "Static load test of airframe to 4g with strain gauges",
+    "uri": null,
+    "properties": {
+      "result": "PASS",
+      "status": "completed",
+      "test_type": "static structural",
+      "load_points": 8,
+      "pass_criteria": "No yielding at 4g, no failure at 6g",
+      "strain_gauges": 24
+    },
+    "objectStorageId": null,
+    "originalId": "TP-001",
+    "classId": 22,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Test Procedure"
+  },
+  {
+    "id": 63,
+    "name": "TP-002: Endurance Test",
+    "description": "90-minute continuous flight at cruise speed",
+    "uri": null,
+    "properties": {
+      "status": "scheduled",
+      "test_type": "flight endurance",
+      "pass_criteria": "Land with >10% battery remaining",
+      "scheduled_date": "2026-03-15",
+      "target_duration": "90 min"
+    },
+    "objectStorageId": null,
+    "originalId": "TP-002",
+    "classId": 22,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [
+      {
+        "id": 1,
+        "name": "critical-path"
+      }
+    ],
+    "labels": [],
+    "class_name": "Test Procedure"
+  },
+  {
+    "id": 64,
+    "name": "EO/IR Gimbal Sensor Suite",
+    "description": "Combined EO/IR payload with 3-axis stabilized gimbal",
+    "uri": null,
+    "properties": {
+      "power": "18 W",
+      "eo_sensor": "Sony ILX-LR1",
+      "ir_sensor": "FLIR Boson 640",
+      "total_weight": "1.2 kg",
+      "gimbal_stabilization": "3-axis brushless"
+    },
+    "objectStorageId": null,
+    "originalId": "SENS-EOIR",
+    "classId": 24,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Sensor"
+  },
+  {
+    "id": 65,
+    "name": "Main Battery Pack 48V/29Ah",
+    "description": "Primary flight battery pack assembly",
+    "uri": null,
+    "properties": {
+      "bms": "integrated",
+      "config": "12S4P",
+      "energy": "1392 Wh",
+      "weight": "6.2 kg",
+      "capacity": "29 Ah",
+      "chemistry": "LiPo",
+      "cell_count": 48,
+      "voltage_nominal": "48V"
+    },
+    "objectStorageId": null,
+    "originalId": "PWR-MAIN",
+    "classId": 25,
+    "dataSourceId": 2,
+    "projectId": 2,
+    "organizationId": 1,
+    "lastUpdatedAt": "2026-03-04T19:15:23.94682",
+    "lastUpdatedBy": 1,
+    "isArchived": false,
+    "fileType": null,
+    "tags": [],
+    "labels": [],
+    "class_name": "Power Source"
+  }
+]

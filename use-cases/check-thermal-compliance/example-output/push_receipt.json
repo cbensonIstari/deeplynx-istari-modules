@@ -1,0 +1,16 @@
+{
+  "created_records": [
+    {
+      "name": "Compliance Check: PERF-007: Thermal Envelope",
+      "record_id": 71,
+      "original_id": "COMPLIANCE-PERF-007-20260304T220123"
+    },
+    {
+      "name": "Compliance Summary (20260304T2)",
+      "record_id": 72,
+      "original_id": "COMPLIANCE-SUMMARY-20260304T220123"
+    }
+  ],
+  "created_edges": [],
+  "errors": []
+}

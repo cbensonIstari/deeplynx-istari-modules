@@ -1,0 +1,59 @@
+{
+  "module_id": "@deeplynx:pull_graph_image",
+  "version": "0.1.0",
+  "description": "Pull graph topology from DeepLynx and render a visual node-and-edge diagram as PNG/SVG",
+  "functions": [
+    {
+      "id": "pull_graph_image",
+      "description": "Query DeepLynx graph for a record, layout nodes with force-directed algorithm, render as image",
+      "entrypoint": "python pull_graph_image.py",
+      "tool_name": "deeplynx",
+      "tool_version": "2.0.0",
+      "operating_system": "Ubuntu 22.04",
+      "input_schema": {
+        "type": "object",
+        "required": ["deeplynx_url", "organization_id", "project_id", "root_record_id"],
+        "properties": {
+          "deeplynx_url": { "type": "string" },
+          "organization_id": { "type": "integer" },
+          "project_id": { "type": "integer" },
+          "root_record_id": {
+            "type": "integer",
+            "description": "Record ID to center the graph on"
+          },
+          "depth": {
+            "type": "integer",
+            "default": 2,
+            "minimum": 1,
+            "maximum": 3,
+            "description": "Edge traversal depth"
+          },
+          "format": {
+            "type": "string",
+            "enum": ["png", "svg", "both"],
+            "default": "both"
+          },
+          "width": { "type": "integer", "default": 1600 },
+          "height": { "type": "integer", "default": 1200 },
+          "dpi": { "type": "integer", "default": 150 },
+          "layout": {
+            "type": "string",
+            "enum": ["spring", "kamada_kawai"],
+            "default": "spring"
+          },
+          "show_edge_labels": { "type": "boolean", "default": true },
+          "bearer_token": { "type": "string" }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "node_count": { "type": "integer" },
+          "edge_count": { "type": "integer" },
+          "root_label": { "type": "string" },
+          "artifacts": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  ]
+}

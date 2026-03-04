@@ -1,0 +1,18 @@
+{
+  "created_records": [
+    {
+      "name": "Thermal Re-analysis: Motor Assembly",
+      "record_id": 66,
+      "original_id": "THERMAL-REANALYSIS-001"
+    }
+  ],
+  "created_edges": [
+    {
+      "edge_id": 87,
+      "origin_id": 66,
+      "destination_id": 25,
+      "relationship": "analyzes"
+    }
+  ],
+  "errors": []
+}
